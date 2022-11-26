@@ -1,4 +1,5 @@
 import './App.css';
+import QRCode from "react-qr-code";
 
 function App() {
   return (
@@ -12,14 +13,15 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
             Learn React
-          </a>
+            <div style={{ height: "auto", margin: "0 auto", maxWidth: 64, width: "100%" }}>
+            <QRCode
+              size={256}
+              style={{ height: "auto", maxWidth: "100%", width: "100%" }}
+              value={value}
+              viewBox={`0 0 256 256`}
+              />
+          </div>
         </p>
       </header>
     </div>
