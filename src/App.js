@@ -29,8 +29,8 @@ function App() {
       <body>
         <div>
           <div>
-            <imput placeholder="Cert Rif" onKeyUp={handlerCertRif} />
-            <imput placeholder="Firma Autorizada Cert" onKeyUp={handlerFirmaRif} />
+            <imput placeholder="Cert Rif" onKeyUp={(e) => handlerCertRif(e) }/>
+            <imput placeholder="Firma Autorizada Cert" onKeyUp={(e) => handlerFirmaRif(e) }/>
             <button value ="Generar" onKeyPress={getUrlCertificado}/>
           </div>
         <QRCode
