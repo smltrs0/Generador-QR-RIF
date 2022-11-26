@@ -1,3 +1,10 @@
+/* Normalizar margenes y padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -28,4 +35,48 @@
 
 .small {
   font-size: 0.75rem;
+}
+
+.input {
+  width: 100%;
+}
+
+.level {
+  /* width: 100%; */
+}
+
+.fieldset{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 0;
+  padding: 0.5rem;
+}
+
+.fieldset input{
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: #ff0000 1px solid;
+
+}
+
+.input-container{
+  display: flex;
+  place-content: center flex-start;
+  padding: 1rem;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  flex-direction: row;  background: #e2e2e2;
+  border: 1px solid #618691;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+.generate{
+  background: #00ff0f;
+  border: 1px solid #00ffff;
+  border-radius: 5px;
+  padding: 1em;
+  margin: 1em;
 }
