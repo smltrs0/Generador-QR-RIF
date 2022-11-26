@@ -18,7 +18,7 @@ function App() {
             <QRCode
               size={256}
               style={{ height: "auto", maxWidth: "100%", width: "100%" }}
-              value={value}
+              value="Texto de ejemplo"
               viewBox={`0 0 256 256`}
               />
           </div>
