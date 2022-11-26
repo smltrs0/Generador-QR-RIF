@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Generador-QR-RIF/static/css/main.f87db60f.css",
+    "main.js": "/Generador-QR-RIF/static/js/main.6fffc826.js",
+    "static/js/787.2dc4bfe2.chunk.js": "/Generador-QR-RIF/static/js/787.2dc4bfe2.chunk.js",
+    "index.html": "/Generador-QR-RIF/index.html",
+    "main.f87db60f.css.map": "/Generador-QR-RIF/static/css/main.f87db60f.css.map",
+    "main.6fffc826.js.map": "/Generador-QR-RIF/static/js/main.6fffc826.js.map",
+    "787.2dc4bfe2.chunk.js.map": "/Generador-QR-RIF/static/js/787.2dc4bfe2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f87db60f.css",
+    "static/js/main.6fffc826.js"
+  ]
+}
