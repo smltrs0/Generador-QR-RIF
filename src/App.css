@@ -37,6 +37,10 @@
   font-size: 0.75rem;
 }
 
+h2{
+  padding-bottom: 3rem;
+}
+
 .input {
   width: 100%;
 }

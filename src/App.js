@@ -1,6 +1,7 @@
 import './App.css';
 import QRCode from "react-qr-code";
 import { useState } from 'react';
+import BannerGit from './BannerGit';
 
 function App() {
 
@@ -32,8 +33,9 @@ function App() {
 
   return (
     <div className="App">
+      <BannerGit/>
       <div style={{ padding: "2rem" }}>
-        <h1>Genera el código QR correspondiente al RIF</h1>
+        <h2>Genera el código QR correspondiente al RIF</h2>
         <div className='input-container'>
           <fieldset title='Número del comprobante' className='fieldset'>
             <label>N° DE COMPROBANTE(*):</label>
